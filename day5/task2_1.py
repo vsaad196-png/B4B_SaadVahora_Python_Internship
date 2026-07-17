@@ -8,7 +8,7 @@ class Student(Person):
         super().__init__(name,age)
         self.course=course
     def study(self):
-        print(self.name,"is studying",self.course)
+        print(self.name,"is studying",self.course,"he is ",self.age,"years old")
 
 s=Student("Ali",20,"Python")
 s.study()

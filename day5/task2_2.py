@@ -7,5 +7,7 @@ class Developer(Employee):
 class Designer(Employee):
     def calculate_salary(self):
         return 10000+3000
-print(Developer().calculate_salary())
-print(Designer().calculate_salary())
+
+print("employee salary",Employee().calculate_salary())
+print("developer salary:",Developer().calculate_salary())
+print("designer salary",Designer().calculate_salary())

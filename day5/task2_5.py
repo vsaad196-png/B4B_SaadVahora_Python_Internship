@@ -10,6 +10,6 @@ class SportsCar(Car):
         super().__init__()
         self.speed=250
     def info(self):
-        print(self.brand,self.model,self.speed)
+        print("car brand:",self.brand," car model:",self.model,"  speed:",self.speed)
 s=SportsCar()
 s.info()
